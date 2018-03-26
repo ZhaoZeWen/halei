@@ -1,0 +1,447 @@
+.middle{
+	width:1200px;
+	display:flex;
+	justify-content:center;
+	margin:0 auto;
+	flex-wrap:wrap;
+	align-items:center;
+	list-style:none;
+}
+.middle{
+	border-bottom:1px solid white;
+}
+/*-----------------------------------banner---------------------------------------------*/
+/*第一块*/
+/*.banner{
+    width:1000px; 
+		height:600px;;
+    position:relative;
+ }
+.banner>img{
+  position:absolute; 
+	top:0; 
+	left:0;
+  opacity:0;
+  transition:all .5s linear;
+	width:100%;
+	height:100%;
+}
+.banner>img.show{
+	opacity:1; 
+	z-index:11; 
+}*/
+.main>.middle>.banner-box{
+	width:1000px;
+	height:500px;
+	margin-top:20px;
+	position:relative;
+	overflow:hidden;
+	box-shadow:0 0 8px;
+}
+#banner{
+	height:500px;
+	position:absolute;
+	left:0px;
+	padding:0;
+}
+#banner>li{
+	width:1000px;
+	height:500px;
+	float:left;
+}
+#indicators{
+	position:absolute;
+	left:455px;
+	bottom:20px;
+}
+#indicators>li{
+	float:left;
+	/*margin-left:10px;*/
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background:#fff;
+}
+#indicators>li.hover,#indicators>li:hover{
+	cursor:pointer;
+	background-color:#faf;
+}
+#arrow-left{
+	display:block;
+	width:0px;
+	height:80px;
+	border-radius:5px;
+	background:rgba(30,30,17,0.5) url(../imgs/register/arrow-left.png) no-repeat 50% 50%;
+	position:absolute;
+	left:0px;
+	top:43%;
+	transition:all .3s ease-out;
+}
+#arrow-right{
+	display:block;
+	width:0px;
+	height:80px;
+	border-radius:5px;
+	background:rgba(30,30,17,0.5) url(../imgs/register/arrow-right.png) no-repeat 50% 50%;
+	position:absolute;
+	right:0px;
+	top:43%;
+	transition:all .3s ease-out;
+} 
+.main>.middle>.banner-box>ul{
+	position:absolute;
+	left:430px;
+	bottom:10px;
+}
+.main>.middle>.banner-box>ul>li{
+	width:13px;
+	height:13px;
+	border-radius:50%;
+	/*background-color:green;*/
+	float:left;
+	/*margin-left:10px;*/
+	
+}
+.main>.middle>.banner-box:hover #arrow-left{
+	width:35px;
+}
+.main>.middle>.banner-box:hover #arrow-right{
+	width:35px;
+}
+
+
+
+/*------------------------------------------------------------------------------------*/
+/*第二块*/
+div.second{
+	width:1200px;
+}
+div.second div{
+	display:flex;
+	justify-content:center;
+}
+div.second div:nth-child(1) img{
+	width:220px;
+	margin-top:60px;
+	margin-bottom:20px;
+}
+div.second div:nth-child(2) span{
+	color: rgb(153, 153, 153);
+} 
+div.second ul.imgs{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+/*图片*/
+div.second ul.imgs li div img{
+	width:360px;
+	height:250px;
+	padding:0 20px;
+	transition:all .5s linear;
+}
+div.second ul.imgs li div img:hover{
+	transform:scale(1.1);
+	border-radius:20%;
+}
+/*文字*/
+div.second ul.imgs li div:nth-child(2){
+	width:290px;
+	height:56px;
+	margin:0 60px;
+	background:red;
+}
+
+div.second ul.imgs li div:nth-child(2) p{
+	line-height:50px;
+}
+div.second div:last-child p img{
+	width:220px;
+	margin-top:60px;
+	margin-bottom:20px;	
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*第三块*/
+div.third{
+	width:1200px;
+	display:flex;
+	justify-content:center;
+}
+div.third div{
+	margin:30px 0;
+	width:583px;
+	/*height:313px;*/
+	/*justify-content:space-between;*/
+}
+/*图片*/
+div.third div img{
+	transition:all 1s linear;
+}
+div.third div img:hover{
+	/*border:1px solid #faa;*/
+	transform:scale(1.1);
+	border-radius:70%;
+}
+/*文字部分*/
+div.third div:nth-child(2) div:first-child p{
+	font: 24px "宋体";
+  color: rgb(255, 255, 255);
+}
+div.third div:nth-child(2) div p{
+	font: 17px "宋体";
+	margin:40px 0;
+}
+div.third div:nth-child(2) div:nth-child(4){
+	width:124px;
+	height:40px;
+	background:#aaa;
+	border-radius:3px;
+}
+div.third div:nth-child(2) div:nth-child(4) p{
+	text-align:center;
+	height:center;
+	line-height:40px;
+}
+div.third div:nth-child(2) div:nth-child(4):hover{
+	background:red;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+/*第四块*/
+div.fourth{
+	width:1200px;
+	display:block;
+}
+div.fourth p:first-child{
+	font-size:48px;
+	font-weight:bold;
+}
+div.fourth p:first-child span:last-child{
+	color: rgb(204, 2, 2);
+}
+div.fourth p:nth-child(2){
+	margin-bottom:10px;
+	margin-top:30px;
+	font-size:18px;
+}
+div.fourth p:nth-child(3){
+	font-size:18px;
+	margin-bottom:30px;
+}
+div.fourth p:last-child{
+	width:124px;
+	height:40px;
+	background:red;
+	border-radius:3px;
+}
+div.fourth  p:last-child{
+	text-align:center;
+	height:center;
+	line-height:40px;
+}
+div.fourth  p:last-child:hover{
+	background:#aaf;
+}
+/*------------------------------------------------------------------------*/
+/*第五块*/
+div.fivth{
+	width:1200px;
+}
+div.fivth div{
+	display:flex;
+	justify-content:center;
+}
+div.fivth div p:last-child{
+	color: rgb(153, 153, 153);
+}
+div.fivth div p:first-child img{
+	width:220px;
+	margin-top:60px;
+	margin-bottom:20px;
+}
+/*图片*/
+div.fivth ul{
+	width:1200px;
+	display:flex;
+	justify-content:center;
+}
+div.fivth ul li div img{
+	width:300px;
+	height:300px;
+	margin:30px 30px;
+	transition:all 1s linear;
+}
+div.fivth ul li div img:hover{
+	transform:scale(1.2);
+	border-radius:70%;
+}
+/*文字*/
+div.fivth ul li div{
+	display:block;
+	text-align:center;
+}
+div.fivth ul li div p{
+	color:#aaa;
+}
+div.fivth ul li div p:first-child{
+	font-size:20px;
+}
+div.fivth ul li div p:first-child:hover{
+	color:#ffa;
+}
+/*第六块*/
+div.six{
+	width:1200px;
+	height:300px;
+	display:flex;
+	justify-content:space-between;
+}
+div.six div{
+	margin:70px 20px;
+}
+/*文字部分*/
+div.six div p:nth-child(2){
+	margin:40px 0;
+}
+div.six div p:first-child span:first-child{
+	font-size:22px;
+	color:red;
+}
+div.six div p:last-child{
+	background:red;
+	width:96px;
+	height:36px;
+	text-align:center;
+	line-height:30px;
+}
+/*------------------------------------------------------------------------------*/
+/*第七块*/
+div.seven{
+	width:1200px;
+}
+div.seven div{
+	display:flex;
+	justify-content:center;
+}
+div.seven div p:first-child img{
+	width:220px;
+	margin-top:60px;
+	margin-bottom:20px;
+}
+div.seven div p:last-child{
+	color: rgb(153, 153, 153);
+}
+/*----------------------------------------------------------------*/
+/*第八块*/
+div.eight{
+	width:1200px;
+	height:400px;
+	border-bottom:1px solid #aaa;
+}
+/*中间第一块*/
+li.one{
+	display:flex;
+	transition:all .5s linear;	
+	margin:50px 0;
+}
+li.one:hover{
+	background:#424242;
+	transform:scale(1.1);
+	border:1px solid #000;
+}
+/*第一块1*/
+#first1{
+	width:980px;
+	height:77px;
+}
+#first1 div{
+	margin-bottom:8px;
+	font-size:20px;
+}
+/*第一块2*/
+#first2{
+	width:200px;
+	height:105px;
+	border-left:1px solid #eee;
+	text-align:center;
+}
+#first2 h2{
+	margin-bottom:20px;
+	font-size:40px;
+}
+/*中间第二块*/
+li.two{
+	display:flex;
+	transition:all .5s linear;
+}
+li.two:hover{
+	background:#424242;
+	transform:scale(1.1);
+	border:1px solid #000;
+}
+/*第二块1*/
+#second1{
+	width:980px;
+	height:77px;
+}
+#second1 div{
+	margin-bottom:8px;
+	font-size:20px;
+}
+/*第二块2*/
+#second2{
+	width:200px;
+	height:105px;
+	border-left:1px solid #eee;
+	text-align:center;
+}
+#second2 h2{
+	margin-bottom:20px;
+	font-size:40px;
+}
+
+/******************************楼层***************************************/
+/*楼层*/
+#lift{
+    margin-top: 25px;
+    display: none;
+    position: fixed;
+    z-index: 100;
+    background-color: #918888;
+    left: 10px;
+    top:100px;
+}
+.lift_list{ display: block; list-style:none }
+.lift_item {
+    border-top: 1px solid #b1aaaa;
+    transition: background-color .1s;
+    transition:all .3s linear;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 24px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}
+.lift_item:hover, .lift_item_on {
+    position: relative;
+    border-bottom: 1px solid #d70b1c;
+    margin-bottom: -1px;
+    border-color: #d70b1c;
+    background-color: #d70b1c;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 34px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}

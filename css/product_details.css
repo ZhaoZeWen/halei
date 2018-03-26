@@ -1,0 +1,76 @@
+.middle{
+	width:1200px;
+	display:flex;
+	/*justify-content:center;*/
+	margin:0 auto;
+	flex-wrap:wrap;
+	align-items:center;
+	list-style:none;
+}
+.middle{
+	border-bottom:1px solid white;
+}
+/*one*/
+#oh{
+	padding-top:40px;
+	width:100%;
+	height:38px;
+	border-bottom:1px solid #fff;
+}
+div.middle div ol{
+	display:block;
+	display:flex;
+	/*box-sizing:border-box; */
+}
+div.middle div li{
+	padding:0 10px;
+}
+/*h1*/
+h1{
+	width:100%;
+	height:64px;
+	padding:30px 0;
+	font-weight: 400;
+  margin: 0;
+  line-height: 1.8em;
+}
+/*two*/
+#wo{
+	width:100%;
+	height:51px;
+}
+/*第三块*/
+#three{
+	width:100%;
+	/*height:2853px;*/
+  margin:40px 0px;
+	border-bottom:1px solid #fff;
+}
+#three p{
+	font-size: 17px;
+  line-height:1.8;
+	color:#41D6B8;
+}
+#three p:last-child{
+	margin:15px 0;
+}
+#three img{
+	padding:50px 10px;
+	transition:all 1.5s linear
+}
+#three img:hover{
+	transform:scale(1.1);
+	border-radius:60%;
+}
+/*第四块*/
+#four{
+	margin-bottom:50px;
+}
+#four div label{
+	color:#aaa;
+}
+#four div a img{
+	width:30px;
+	height:30px;
+	border-radius:50% 50%;
+}

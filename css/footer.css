@@ -1,0 +1,27 @@
+/*整体*/
+body{
+	background:#141414;
+	color:#fff;
+}
+div.foot{
+	width:1200px;
+	margin:0 auto;
+}
+/*列表*/
+#first,#second,#third{
+	float:left;
+	margin:0px auto;
+	margin-left:100px;
+	width:300px;
+}
+#first li,#second li,#third li{
+	margin-top:20px;
+}
+/*版权*/
+#copy{
+	clear:both;
+	text-align:center;
+	font-family:"microsoft yahei";
+	line-height:10px;
+	margin-top:20px;
+}

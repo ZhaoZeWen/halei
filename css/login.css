@@ -1,0 +1,67 @@
+		.back{
+	   width:265px;
+		 border-radius:5px;
+		 background:rgba(0,0,0,0.5);
+	  }
+	  .back table{
+	   width:260px;
+		 height:280px;
+	  }
+	  /*设置文本框，密码框，按钮的高宽和轮廓*/
+	  #uname,#upwd,#btn{
+	   width:100%;
+		 height:32px;
+		 outline:0;
+	  }
+	  /*h4的样式设置*/
+    .back table h4{
+	    color:#fff;
+      margin:0; /*设置h4的外边距为0*/
+	 }
+	 .back table a{
+	  color:#fff;
+		text-decoration:none;/*取消下划线效果*/
+		font-size:13px;
+	 }
+	 #btn{
+	   background:#15A7F0;
+	   border:0;/*取消按钮的边框*/
+	 }
+    
+	.myfont{
+	   color:#fff;
+	   font-size:12px;
+	}
+
+	.check{  /*验证内容显示tr的高度*/
+	  height:25px;
+	}
+
+	/*添加背景图*/
+	#container{
+	   background:url(../imgs/register/woo.jpg);
+	   height:700px;
+	   width:1200px;
+	   margin:0 auto; /*div自动水平居中对齐*/
+	}
+    #container div.back{
+	   /*设置上外边距和左外边距*/
+			margin:100px;
+	}
+	/*用户名和密码框的小图标*/
+    #uname,#upwd{
+	   background:#fff url(../imgs/register/yhm.png) no-repeat 95% center;
+	}
+	#upwd{
+	  background-image:url(../imgs/register/mm.png);
+	}
+	#btn{
+	   background-image:linear-gradient(to bottom,#24AEF5,#0CA2EE);
+	   /*兼容低版本火狐浏览器的渐变效果*/
+	   background-image:-moz-linear-gradient(to bottom,#24AEF5,#0CA2EE);
+	   /*兼容低版本IE浏览器的渐变效果*/
+	   background-image:-ms-linear-gradient(to bottom,#24AEF5,#0CA2EE);
+	   /*opera*/
+	   background-image:-o-linear-gradient(to bottom,#24AEF5,#0CA2EE);
+	   /*...*/
+	}

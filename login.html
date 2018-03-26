@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/footer.css">
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="container">
+			<table></table>
+			<div class="back">
+				<form>
+					<table>
+						<tr>
+							<td>
+								<h4>登录哈雷商城</h4>
+							</td>
+							<td>
+								<a href="#">新用户注册</a>
+							</td>
+						</tr>
+						<!--第二行：水平线-->
+						<tr>
+							<td colspan="2"><hr></td>
+						</tr>
+						<!--第三行：输入框-->
+						<tr>
+							<td colspan="2">
+								<input type="text" id="uname" name="uname" placeholder="请输入您的用户名" onblur="check_uname()">
+							</td>
+						</tr>
+						<!--第四行：验证提示内容-->
+						<tr class="check">
+							<td colspan="2" id="uname-show"></td>
+						</tr>
+						<!--第五行：密码框-->
+						<tr>
+							<td colspan="2">
+								<input type="password" id="upwd" name="upwd" placeholder="请输入您的密码">
+							</td>
+						</tr>
+						<!--第六行：自动登录&忘记密码-->
+						<tr class="myfont">
+							<td>
+								<input type="checkbox">自动登录
+							</td>
+							<td>忘记密码?</td>	
+						</tr>
+						<!--第七行：登录按钮-->
+						<tr>
+							<td colspan="2"><input type="button" id="btn" value="登录"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<div id="footer"></div>
+		<script src="js/jquery-3.2.0.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/login.js"></script>
+		<script src="js/footer.js"></script>
+	</body>
+</html>
